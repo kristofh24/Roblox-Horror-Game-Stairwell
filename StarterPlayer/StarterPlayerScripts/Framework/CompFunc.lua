@@ -1,4 +1,6 @@
 -- @ScriptType: ModuleScript
+-- Creates a new computer event when user interacts with computer object
+
 local Computer={}
 Computer.__index=Computer
 
@@ -80,6 +82,7 @@ function Computer.new(comp)
 		end
 	end)
 	
+	--tracker moves left to right --> space must be pressed when tracker is within a highlighted zone
 	self.Input=game:GetService("UserInputService").InputBegan:Connect(function(i,gp)
 		if i.KeyCode==Enum.KeyCode.Space then
 			local tracker_x=self.Computer.Frame.Tracker.AbsolutePosition.X
