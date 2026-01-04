@@ -1,4 +1,6 @@
 -- @ScriptType: ModuleScript
+-- Alert system to display popup text messages (look like subtitles)
+
 local Alerts={}
 Alerts.__index=Alerts
 
