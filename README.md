@@ -229,9 +229,9 @@ Map Generation Overhaul (Procedural Generation - Ongoing)
 
 ## Development Decisions
 
-2. **Sanity System** - Focus on psychological horror element beyond jump scares
-4. **Procedural Generation** - Focus on improved map generation for better user experience
-5. **Modular Architecture** - Separated core systems for maintainability
-7. **Iterative Approach** - Continuously adjusted sanity drain and item spawn rates to maximize player enjoyment
+1. **Sanity System** - Focus on psychological horror element beyond jump scares
+2. **Procedural Generation** - Focus on improved map generation for better user experience
+3. **Modular Architecture** - Separated core systems for maintainability
+4. **Iterative Approach** - Continuously adjusted sanity drain and item spawn rates to maximize player enjoyment
 
 ---
